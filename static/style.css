@@ -31,10 +31,10 @@ img {
 
 .left{
      color: #ffffff;
-     font-size:10px;
+     font-size:8px;
      position: absolute;
      right: 60px;
-     top: 210px;
+     top: 215px;
 }
 .right{
      color: #ffffff;
@@ -42,7 +42,15 @@ img {
      position: absolute;
      width: 400px;
      height: 400px;
-     right: 550px;
-     top: 220px;
+     right: 450px;
+     top: 230px;
+     opacity: 0.6;
+}
+h3{
+     color: #a7a7a7;
+     font-size:30px;
+     position: absolute;
+     right: 900px;
+     top: 217px;
      opacity: 1;
 }
