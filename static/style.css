@@ -1,0 +1,48 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 20px; 
+      background-color: #000000; 
+    }
+h1 {
+     color: #a7a7a7;
+     font-size:100px;
+     }
+h2 {
+     color: #a7a7a7;
+     font-size:30px;
+     }
+p {
+     font-size: 15px;
+     color: #ffffff;
+     }
+img {
+     max-width: 100%; height: auto; margin-top: 20px; border: 2px solid #2c3e50;
+    }
+.summary
+{
+     color: #ffffff;
+     font-size:100px;
+}
+.prediction
+{
+     color: #ffffff;
+     font-size:100px;
+}
+
+.left{
+     color: #ffffff;
+     font-size:10px;
+     position: absolute;
+     right: 60px;
+     top: 210px;
+}
+.right{
+     color: #ffffff;
+     font-size:10px;
+     position: absolute;
+     width: 400px;
+     height: 400px;
+     right: 550px;
+     top: 220px;
+     opacity: 1;
+}

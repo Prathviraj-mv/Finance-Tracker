@@ -1,0 +1,35 @@
+Year,Month,Day,Category,Description,Amount,Type
+2025,1,5,Salary,January Salary,6000,Income
+2025,1,7,Groceries,Supermarket,1800,Expense
+2025,1,12,Entertainment,Movie,200,Expense
+2025,1,20,Utilities,Electricity Bill,400,Expense
+2025,1,25,Freelance,Side Project,1200,Income
+2025,2,2,Transport,Uber,350,Expense
+2025,2,5,Salary,February Salary,3100,Income
+2025,2,11,Groceries,Supermarket,1200,Expense
+2025,2,18,Shopping,New Phone,2200,Expense
+2025,2,22,Freelance,Design Gig,900,Income
+2025,3,3,Transport,Bus Pass,60,Expense
+2025,3,5,Salary,March Salary,6200,Income
+2025,3,12,Groceries,Supermarket,1400,Expense
+2025,3,14,Entertainment,Concert,500,Expense
+2025,3,20,Freelance,App Project,1500,Income
+2025,3,28,Utilities,Water Bill,250,Expense
+2025,4,5,Salary,April Salary,8000,Income
+2025,4,8,Groceries,Supermarket,1600,Expense
+2025,4,15,Entertainment,Vacation,2500,Expense
+2025,4,25,Freelance,Consulting,2000,Income
+2025,4,28,Utilities,Internet Bill,300,Expense
+2025,5,5,Salary,May Salary,3400,Income
+2025,5,7,Groceries,Supermarket,1750,Expense
+2025,5,10,Transport,Metro,120,Expense
+2025,5,14,Entertainment,Movie,180,Expense
+2025,5,20,Freelance,Side Hustle,800,Income
+2025,5,25,Shopping,Laptop,2500,Expense
+2025,6,5,Salary,June Salary,3500,Income
+2025,6,6,Bonus,Midyear Bonus,2000,Income
+2025,6,8,Groceries,Supermarket,1800,Expense
+2025,6,12,Entertainment,Concert,600,Expense
+2025,6,20,Utilities,Electricity Bill,400,Expense
+2025,6,25,Transport,Car Repair,1500,Expense
+

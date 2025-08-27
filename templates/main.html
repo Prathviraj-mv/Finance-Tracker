@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Finance Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+</head>
+<body>
+<h1>Finance Dashboard</h1>
+
+<h2>Summary</h2>
+<div class="summary">
+    <p>Total Income: {{ total_income }} Rs</p>
+    <p>Total Expense: {{ total_expense}} Rs</p>
+    <p>Net Savings: {{ net_savings }} Rs</p>
+</div>
+<h2>Predictions</h2>
+<div class="prediction">
+
+    <p>Predicted Income for next month: {{ predicted_income }} Rs</p>
+    <p>Predicted Expense for next month: {{ predicted_expense }} Rs</p>
+    <p>Predicted Savings for next month: {{ predicted_savings }} Rs</p>
+</div>
+
+
+<div class="left">
+    <h2>Last 20 Entries</h2>
+    <table>
+        <tr>
+            {% for col in last_20[0].keys() %}
+            <th>{{ col }}</th>
+            {% endfor %}
+        </tr>
+        {% for row in last_20 %}
+        <tr>
+            {% for value in row.values() %}
+            <td>{{ value }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+<div class="right">
+    <h2>Savings Trend</h2>
+    <img src="{{ url_for('static', filename='images/img.jpg') }}" alt="Savings Plot">
+</div>
+
+</body>
+</html>
